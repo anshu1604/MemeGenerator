@@ -1,11 +1,12 @@
 import React from 'react'
+import logo from './Trollface.png'
 
 function Header(){
     return(
         <header>
             <div style={{float:'left',padding:5}}>
                 <img style={{width:100, height:75}}
-                    src='http://www.pngall.com/wp-content/uploads/2016/05/Trollface.png'
+                    src={logo}
                     alt='Problem?'
                 />&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
